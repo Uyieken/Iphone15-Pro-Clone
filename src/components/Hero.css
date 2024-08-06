@@ -1,0 +1,9 @@
+.hero-section {
+  height: 100vh; /* Default height for larger screens */
+}
+
+@media (max-width: 760px) {
+  .hero-section {
+    height: 125vh; /* Adjust height for small screens */
+  }
+}
